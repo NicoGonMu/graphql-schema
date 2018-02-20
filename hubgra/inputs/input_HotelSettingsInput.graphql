@@ -9,7 +9,9 @@ input HotelSettingsInput {
   
   # This field is got only if the authorization header is of the type JWT. It is used for to change the user that
   # has been set by default in the preload.
-  connectUser: String,
+  connectClient: String
+  
+  connectUser: String @deprecated(reason: "deprecated from 2018-02-20. You can find it in query a connectClient")
   
   # Milliseconds before the connection is closed.
   timeout: Int
