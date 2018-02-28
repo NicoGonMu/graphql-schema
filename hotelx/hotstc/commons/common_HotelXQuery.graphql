@@ -15,5 +15,5 @@ extend type HotelXQuery {
   destinations(criteria: HotelXDestinationListInput!, relay: RelayInput!, token: String): DestinationConnection!
   
   # Searcher web
-  searcherWeb(text: String!): WebSearchResult!
+  searcherWeb(text: String!): [WebSearchResult]!
 }
