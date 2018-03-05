@@ -1,5 +1,5 @@
-# Parameters Input.
-input ParameterInput {  
+# Parameters for additional information for the supplier's configuration.
+type ParameterData {  
   # Contains the keyword/Id to identify a parameter.
   # This information is mandatory.
   key: ID!

@@ -1,4 +1,4 @@
-# Temporary type to use only during SQL server's lifetime
+# XTG Platform API implementation
 type Provider {
   code: ID!
   name: String!
