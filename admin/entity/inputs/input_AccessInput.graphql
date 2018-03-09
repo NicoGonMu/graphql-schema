@@ -26,4 +26,8 @@ input AccessInput {
   shared: String
   # Default group where the access will be visible.
   group: ID
+  # Indicates the InfoHotel parallelism, by default is 0.
+  descriptiveInfoLimit: Int
+  # Indicates if the scheduler is active for this access, by default is false. 
+  scheduler: Boolean
 }
