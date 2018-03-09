@@ -23,5 +23,8 @@ type AccessData {
   rateRules: [RateRulesType!]
   # Parent access if Shared access
   shared: Access
-  
+  # Indicates the InfoHotel parallelism.
+  descriptiveInfoLimit: Int!
+  # Indicates if the scheduler is active for this access. 
+  scheduler: Boolean!
 }
