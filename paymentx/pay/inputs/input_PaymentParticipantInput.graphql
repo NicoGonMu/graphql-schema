@@ -1,0 +1,25 @@
+input PaymentParticipantInput{	
+  # Participant ID
+  id: String!
+  
+  # Participant name
+  name: String!
+  
+  # Participant surname
+  surname: String
+  
+  # Email and phone number
+  contact: ContactInput!
+  
+  # Social Security Number.
+  ssn: SSN
+  
+  # Participant address
+  address: PaymentAddressInput!
+  
+  # Participant billing address
+  billingAddress: PaymentAddressInput
+  
+  # Participant bank details
+  bank: PaymentBankInput
+}

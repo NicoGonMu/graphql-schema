@@ -1,0 +1,4 @@
+input PaymentChargeInput{
+  currency: Currency!
+  amount : Float!
+}

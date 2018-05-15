@@ -1,0 +1,5 @@
+enum PayementMethodType {
+  CARD
+  ONLINE
+  OFFLINE
+}

@@ -1,0 +1,4 @@
+type PaymentMethod { 
+  code: PayementMethodType
+  schema: PayementMethodSchemaType
+}

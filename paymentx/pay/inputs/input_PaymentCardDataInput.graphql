@@ -1,0 +1,13 @@
+input PaymentCardDataInput{
+  # Card data information encrypted by the SWAPPT CSE JavaScript.
+  encrypted: PaymentInplicitCardDataInput
+  
+  # Card data information previously stored on SWAPPT Vault.
+  tokenized: PaymentInplicitCardDataInput
+  
+  # Card data information encrypted by the gateway.
+  gateway: PaymentInplicitCardDataInput
+  
+  # Card data information specifying all card fields
+  explicit : PaymentExplicitCardDataInput
+}

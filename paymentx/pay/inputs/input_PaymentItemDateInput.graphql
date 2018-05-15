@@ -1,0 +1,7 @@
+input PaymentItemDateInput {
+  # Item start date
+  startDate: DateTime!
+  
+  # Item end date
+  endDate: DateTime
+}

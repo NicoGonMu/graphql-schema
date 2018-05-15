@@ -1,0 +1,20 @@
+type Redirect {
+  
+  # Body to send in redirect
+  body: String!
+  
+  # Headers to send in redirect
+  headersList : [Header!]
+  
+  # Url used in redirect
+  url: URI!
+  
+  # Method used in redirect.
+  method: HttpMethodType!
+  
+  # Protocol used in redirect.
+  protocol: HttpProtocol!
+  
+  # Forms to complete redirect action.
+  formInputs: [Parameter!]
+}

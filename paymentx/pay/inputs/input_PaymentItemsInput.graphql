@@ -1,0 +1,26 @@
+input PaymentItemsInput{
+  
+  # The booking locata for this buy
+  bookingReference : String!
+  
+  # Item name
+  name: String!
+  
+  # Item description
+  description: String
+  
+  # When you can use the item?
+  itemDate: PaymentItemDateInput
+  
+  # How many items do you buy?
+  quantity: Int!
+  
+  # How much does the item cost?
+  charge: PaymentChargeInput!
+  
+  # URL Item image
+  imageUrl: URI
+  
+  # Who sells the item?
+  provider: String
+}

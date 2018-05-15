@@ -1,0 +1,5 @@
+type PaymentData {
+  transaction: Transaction
+  redirect: Redirect
+  cardToken : String
+}

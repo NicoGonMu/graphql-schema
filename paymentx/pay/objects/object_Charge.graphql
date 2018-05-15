@@ -1,0 +1,8 @@
+type Charge {
+  
+  # Payment currency
+  currency: Currency!
+  
+  # Payment total amount
+  amount: Float!
+}

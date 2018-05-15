@@ -1,0 +1,7 @@
+input ContactInput {
+  # Participant email
+  email: Email
+  
+  # Participant phone number
+  telephone : PhoneNumber
+}

@@ -1,0 +1,13 @@
+input PaymentAddressInput{
+  # Country Code
+  country: Country!
+  
+  # City
+  city: City!
+  
+  # Address line
+  addressLine: [String]!
+  
+  # Zip code
+  zipCode: ZipCode!
+}

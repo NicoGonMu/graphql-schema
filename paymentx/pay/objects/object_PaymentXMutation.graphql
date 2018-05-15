@@ -1,0 +1,4 @@
+type PaymentXMutation {
+  # Creates a new payment using the smart routing to select the supplier acces.
+  create(rq: PaymetsCreateInput!, criteria: PaymentCreateCriteriaInput, settings: PaymentSettingsInput): Payment
+}

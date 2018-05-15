@@ -1,0 +1,10 @@
+input PaymentCreateCriteriaInput {
+  # Selected payment method
+  paymentMethod: PaymentMethodInput!
+  
+  # Busines configuration. There yo can configure the request.
+  businessRules: [ParameterInput]
+  
+  # ISO3 country code
+  market : Country!
+}

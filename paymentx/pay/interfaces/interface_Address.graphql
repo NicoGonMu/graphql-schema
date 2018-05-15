@@ -1,0 +1,17 @@
+#################	INTERFACES ###################
+interface Address {
+  # Contains Hotel Address
+  address: [String]
+  
+  # Contains the city
+  city: City
+  
+  # Contains the zipCode.
+  zipCode: ZipCode
+  
+  # Country where is the Hotel.
+  country: Country!
+  
+  # Geographical coordinates corresponding to a location.
+  coordinates: Coordinates
+}

@@ -1,0 +1,7 @@
+interface Contactable {
+  # Email
+  email: Email
+  
+  # Telephone
+  telephone: PhoneNumber
+} 

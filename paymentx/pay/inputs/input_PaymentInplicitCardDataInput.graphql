@@ -1,0 +1,8 @@
+input PaymentInplicitCardDataInput {
+  
+  # Token that contains the card information.
+  token : String!
+  
+  # Indicates whether if the information is necessary stored and tokenize for future uses by the SWAPPT Vault service.
+  storeCard: Boolean!
+}

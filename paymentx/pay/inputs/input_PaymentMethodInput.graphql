@@ -1,0 +1,7 @@
+input PaymentMethodInput{
+  # Payment method code
+  code: PayementMethodType
+  
+  # Payment method schema
+  schema: PayementMethodSchemaType
+}

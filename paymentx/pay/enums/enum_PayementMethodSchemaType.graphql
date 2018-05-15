@@ -1,0 +1,6 @@
+enum PayementMethodSchemaType{
+  VISA
+  MASTERCARD
+  SOFORT
+  PAYPAL
+}

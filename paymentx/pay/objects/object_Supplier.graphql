@@ -1,0 +1,16 @@
+type Supplier {
+  code: ID!
+  isActive: Boolean!
+  dll: ID! #Ver si es un recurso
+  
+  name : String
+  
+  contact: Contactable
+  
+  # Create date
+  createdAt: DateTime!
+  
+  # Update date
+  updatedAt: DateTime!
+  
+}

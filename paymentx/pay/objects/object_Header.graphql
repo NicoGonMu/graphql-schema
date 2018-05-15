@@ -1,0 +1,9 @@
+type Header {
+  # Contains the keyword/Id to identify the header.
+  # This information is mandatory.
+  key: String!
+  # Contains the header value.
+  # This information is mandatory.
+  value: String!
+  
+}

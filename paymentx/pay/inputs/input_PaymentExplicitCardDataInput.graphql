@@ -1,0 +1,17 @@
+input PaymentExplicitCardDataInput {
+  
+  # Card Number (16 digits typically)
+  number: CardNumber!
+  
+  # Expiration Month from 01 to 12
+  expirationMonth: Int!
+  
+  #Expiration year (4 digits format)
+  expirationYear: Int!
+  
+  # Security Code (CVV)
+  securityCode: String!
+  
+  # If is true swappt will store the card data into Vault , Default value: false
+  storeCard: Boolean!
+}

@@ -1,0 +1,5 @@
+###################	ENUMS #####################
+enum TransactionType {
+  EXPIRABLE
+  FINAL
+}

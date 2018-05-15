@@ -1,0 +1,20 @@
+type Bank{
+  
+  # BIC
+  bic: BIC
+  
+  # Bank holder
+  holder: String
+  
+  # Bank account data
+  bankAccount: BankAccount
+  
+  # Bank name
+  bankName: String
+  
+  # Bank country code
+  country: Country
+  
+  # IBAN
+  iban: IBAN
+}

@@ -1,0 +1,7 @@
+type AdviseMessage {
+  code: Int
+  level: String!
+  description: String
+  external: ExternalMessage
+  traceID: String!
+}

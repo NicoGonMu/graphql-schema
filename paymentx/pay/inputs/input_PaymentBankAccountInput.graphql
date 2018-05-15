@@ -1,0 +1,7 @@
+input PaymentBankAccountInput{
+  #  Bank account number
+  number: String!
+  
+  # Bank security code
+  securityCode: String!
+}

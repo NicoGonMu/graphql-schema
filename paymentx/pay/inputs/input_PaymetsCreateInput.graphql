@@ -1,0 +1,28 @@
+###################	INPUTS ###################
+input PaymetsCreateInput{
+  
+  # Card Data
+  card: PaymentCardDataInput
+  
+  # Seller reference
+  clientReference: String!
+  
+  # Payment amount
+  charge: PaymentChargeInput!
+  
+  # Payment customer details
+  customer: PaymentParticipantInput!
+  
+  # Payment recipient details
+  recipient: PaymentParticipantInput!
+  
+  # Payment breakdown in items
+  items: [PaymentItemsInput]!
+  
+  # Payment breakdown in reasons format
+  reasons: [String!]
+  
+  # Client locator reference.
+  bookingReference: String!
+  
+}

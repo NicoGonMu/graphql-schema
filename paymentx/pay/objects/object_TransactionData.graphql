@@ -1,0 +1,44 @@
+type TransactionData { 
+  
+  # Payment transaction id.
+  reference: Reference!
+  
+  # Payment transaction type, expirable or final.
+  type: TransactionType!
+  
+  # Payment transaction status.
+  status: TransactionStatusType!
+  
+  # Payment transaction status description.
+  statusDescription: String
+  
+  # Payment transaction amount.
+  charge: Charge!
+  
+  # If payment transaction is a refund, here are it reasons.
+  # refundReasons: [String]
+  
+  # If status is pending, here is it reason.
+  pendingReason: String
+  
+  # Payment method used on this payment
+  paymentMethod: PaymentMethod!
+  
+  # Payment ransaction datetime.
+  dateTime: DateTime!
+  
+  # Expiration payment transaction date.
+  expirationDatetime: DateTime
+  
+  # If payment transaction is a refund, here is the amount to be refunded.
+  #refundedCurrencyAmmount: Charge
+  
+  # Payment transaction customer.
+  customer: Participant
+  
+  # Payment transaction recipient.
+  recipient: Participant
+  
+  # Acces used to pay
+  access: PaymentAccess!
+}

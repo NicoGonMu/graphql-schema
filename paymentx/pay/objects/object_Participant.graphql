@@ -1,0 +1,10 @@
+type Participant {
+  id: String,
+  name: String,
+  surname: String,
+  contact : Contactable
+  address: Address
+  billingAddress: Address
+  ssn: String,
+  bank: Bank
+}
